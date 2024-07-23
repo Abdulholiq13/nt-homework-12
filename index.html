@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Street</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <a class="logo__link" href="index.html">
+          <img class="logo__img" src="./img/logo_coffe.svg" alt="Coffee logo" />
+        </a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link active" href="#">About us</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Our Product</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Delivery</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="wrapper-search">
+          <label class="header__input-inner">
+            <img class="header__img" src="./img/icons-search.svg" alt="Search icon" />
+            <input class="header__input" type="text" placeholder="Cappuccino" width="24" height="24" />
+          </label>
+          <button class="header__cart-btn">
+            <img class="header__cart-img" src="./img/cart-icon.svg" alt="Cart img" width="25" height="24" />
+          </button>
+        </div>
+      </div>
+    </header>
+    <main class="main-content">
+      <!-- Intro -->
+      <section class="intro">
+        <div class="container intro__container">
+          <div class="intro__text-inner">
+            <h2 class="intro__title">Enjoy your <span>coffee</span> before your activity</h2>
+            <p class="intro__decs">Boost your productivity and build your mood with a glass of coffee in the morning</p>
+            <span class="intro__btn-inner">
+              <button class="btn intro__btn">Order now <img src="./img/cart-intro-img.svg" alt="" /></button>
+              <button class="btn-transparent intro__btn-transparent">More menu</button>
+            </span>
+          </div>
+          <img src="./img/img-hero.png" alt="Cappuccino info img" width="527" height="416" />
+        </div>
+      </section>
+      <!-- Popular Now -->
+      <section class="popular">
+        <div class="container popular__container">
+          <div>
+            <h2 class="popular__title">Popular Now</h2>
+            <div class="line"></div>
+          </div>
+          <div class="popular__card-wrapper">
+            <div class="popular__card-inner">
+              <div class="popular__card">
+                <div class="popular__card-img">
+                  <img src="./img/vanilla.jpg" alt="vanilla coffee img" width="307" height="226" />
+                </div>
+                <div class="popular__text-inner">
+                  <h3 class="card__title">Vanilla Latte</h3>
+                  <p class="card__cost">21 K</p>
+                </div>
+                <div class="popular__filter">
+                  <button class="popular__btn active-bnt">Hot</button>
+                  <button class="popular__btn">Cold</button>
+                  <a class="popular__cart">
+                    <img src="./img/cart-intro-img.svg" alt="" />
+                  </a>
+                </div>
+              </div>
+              <div class="popular__card">
+                <div class="popular__card-img">
+                  <img src="./img/expresso.png" alt="Expresso img" width="307" height="226" />
+                </div>
+                <div class="popular__text-inner">
+                  <h3 class="card__title">Espresso</h3>
+                  <p class="card__cost">12 K</p>
+                </div>
+                <div class="popular__filter">
+                  <button class="popular__btn">Hot</button>
+                  <button class="popular__btn">Cold</button>
+                  <a class="popular__cart">
+                    <img src="./img/cart-intro-img.svg" alt="" />
+                  </a>
+                </div>
+              </div>
+              <div class="popular__card">
+                <div class="popular__card-img">
+                  <!-- <span class="star__wrapper">
+                    4.8<img src="./img/icons-star.svg" alt="Star icon" width="14" height="14" />
+                  </span> -->
+                  <img src="./img/hazelnut.png" alt="Hazelnut img" width="307" height="226" />
+                </div>
+                <div class="popular__text-inner">
+                  <h3 class="card__title">Hazelnut Latte</h3>
+                  <p class="card__cost">23 K</p>
+                </div>
+                <div class="popular__filter">
+                  <button class="popular__btn">Hot</button>
+                  <button class="popular__btn">Cold</button>
+                  <a class="popular__cart">
+                    <img src="./img/cart-intro-img.svg" alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Special -->
+      <section class="special">
+        <div class="container special__container">
+          <h2 class="special__title">Special menu <span>for you</span></h2>
+          <div class="special__card-wrapper">
+            <div class="special__card">
+              <div class="special__card-img">
+                <!-- <span class="star__wrapper">
+                  4.8<img src="./img/icons-star.svg" alt="Star icon" width="14" height="14" />
+                </span> -->
+                <img src="./img/hazelnut.png" alt="Hazelnut img" width="307" height="226" />
+              </div>
+              <div class="special__text-inner">
+                <h3 class="card__title">Hazelnut Latte</h3>
+                <p class="card__cost">23 K</p>
+              </div>
+              <div class="special__filter">
+                <p class="coffee-info">bread with meat and vegetables</p>
+                <a class="special__cart">
+                  <img src="./img/cart-intro-img.svg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <button class="loadmore_btn btn-border">Load More</button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer"></footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
