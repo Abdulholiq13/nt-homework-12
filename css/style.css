@@ -604,3 +604,48 @@ ul {
   padding: 10px;
   border: 1px solid var(--primary-color);
 }
+
+/* Subscribe */
+.subscribe {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.subscribe__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subscribe__content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 24px;
+  width: 100%;
+  height: 392px;
+  padding: 132px;
+  background-image: url('../img/subscribe-img.svg');
+}
+
+.subscribe__title {
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 4%;
+  color: #fff;
+}
+
+.input__inner {
+  background-color: #fff;
+  border-radius: 42px;
+  border: none;
+  padding: 5px;
+  margin-top: 26px;
+}
+
+.subscribe__input {
+  border: none;
+  font-size: 16px;
+  margin-left: 11px;
+  margin-right: 91px;
+  outline: none;
+}
