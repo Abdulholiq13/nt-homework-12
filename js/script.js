@@ -74,6 +74,6 @@ elLoadMore.addEventListener('click', () => {
 
 window.addEventListener('click', (e) => {
   if (e.target.className.includes('card__img') || e.target.className.includes('card__title')) {
-    window.open(`../pages/product.html?id=${e.target.closest('.special__card').dataset.id}`, '_self');
+    window.open(`/pages/product.html?id=${e.target.closest('.special__card').dataset.id}`, '_self');
   }
 });
